@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertă exclusivă pentru Andreea: Dr.Clo în România</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Clean Corporate (Light Gray, Dark Blue, Accent Blue, Green, Gold) -->
+    <!-- Application Structure Plan: A single-page, static business pitch. The structure flows from identifying a major problem, presenting Dr. Clo as the solution, detailing the business opportunity with static visuals, adding a new section on partner support, and ending with a clear call to action. This static version ensures maximum compatibility across all platforms. -->
+    <!-- Visualization & Content Choices: 
+        - Problem (Flu Stats): Goal: Create urgency. Method: Large, static numbers. Justification: Instantly readable.
+        - Solution (Product Variants): Goal: Organize product info. Method: A clear, static list with emojis. Justification: Visual and universally compatible.
+        - Opportunity (Market Growth): Goal: Show change. Method: Static HTML/CSS bar chart. Justification: Visually represents growth without JS.
+        - Opportunity (Profitability): Goal: Simplify a key metric. Method: Static HTML/CSS visual ratio diagram. Justification: Instantly understandable.
+        - Partner Support: Goal: Build trust and show value beyond the product. Method: Icon-based feature grid. Justification: Clearly communicates partnership benefits.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #0A2540 0%, #0d3a61 100%);
+        }
+        .gold-text {
+            color: #D4AF37;
+        }
+        .feature-card {
+            background-color: #fff;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="hero-gradient text-white">
+        <div class="container mx-auto px-6 py-20 text-center">
+            <h1 class="text-4xl md:text-5xl font-black leading-tight mb-4">Nu mai căutați produsul care vă va face milionar.</h1>
+            <p class="text-2xl md:text-3xl font-light text-slate-300 mb-6">Aceasta este o <span class="gold-text font-semibold">oportunitate de aur</span> care se află deja în fața dumneavoastră.</p>
+            <div class="inline-block bg-blue-500 text-white font-bold rounded-full px-8 py-3 text-lg">
+                Ofertă unică: LTGP la CAC 4.3:1
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="problem" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">O problemă relevantă pentru România</h2>
+                    <p class="text-lg text-slate-600 mb-12">Sănătatea respiratorie este o problemă serioasă în regiune. Poluarea aerului din orașe și bolile sezoniere creează o cerere constantă pentru soluții eficiente.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-5xl font-extrabold text-blue-600 mb-2">2.3 mil.</p>
+                        <p class="text-lg font-semibold text-slate-700">de persoane din România suferă de boli respiratorii</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-5xl font-extrabold text-blue-600 mb-2">TOP 15</p>
+                        <p class="text-lg font-semibold text-slate-700">România se numără printre cele mai poluate țări din Europa în ceea ce privește calitatea aerului</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-5xl font-extrabold text-red-500 mb-2">20%+</p>
+                        <p class="text-lg font-semibold text-slate-700">din populație suferă de alergii sezoniere, în special la ambrozie</p>
+                    </div>
+                </div>
+                <p class="text-center mt-12 text-slate-500">Oamenii din România caută activ o modalitate de a se proteja pe ei înșiși și familiile lor. <br> **Aici intervine stick-ul Dr.Clo.**</p>
+            </div>
+        </section>
+
+        <section id="intro" class="py-16 bg-white">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h2 class="text-3xl font-bold mb-4">Bună ziua, Andreea!</h2>
+                <p class="text-lg text-slate-600 mb-4">Numele meu este Victoria. Am pregătit această prezentare pentru a vă arăta cum Dr.Clo rezolvă aceste probleme presante și deschide o piață uriașă pentru dumneavoastră.</p>
+            </div>
+        </section>
+
+        <section id="new-reality" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Tendințe globale și abordarea noastră individuală</h2>
+                    <p class="text-lg text-slate-600 mb-12">Dr.Clo răspunde nu numai cerințelor actuale, ci și celor viitoare ale pieței, ceea ce îl face produsul ideal pentru o afacere pe termen lung.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="text-4xl mb-4">♻️</p>
+                        <h3 class="font-bold text-lg mb-2">Tendința ecologică: Reducerea deșeurilor</h3>
+                        <p class="text-slate-600">Stick-ul pentru frigider nu înseamnă doar prospețime. Acesta prelungește durata de valabilitate a produselor, ceea ce reduce direct risipa alimentară. Acesta este un argument puternic pentru consumatorii conștienți care doresc să economisească și să aibă grijă de planetă.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="text-4xl mb-4">🇲🇾 → 🇷🇴</p>
+                        <h3 class="font-bold text-lg mb-2">Abordare individuală pentru fiecare piață</h3>
+                        <p class="text-slate-600">În țările sudice, la fel ca în România, umiditatea favorizează dezvoltarea mucegaiului. Pentru Malaezia am dezvoltat o formulă specială. Suntem gata să ne folosim experiența pentru a crea un produs perfect adaptat nevoilor regiunii dumneavoastră.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="korea-success" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Succes dovedit în Coreea de Sud</h2>
+                    <p class="text-lg text-slate-600 mb-12">Dr.Clo este un produs în care au încredere cele mai mari corporații și retaileri de pe una dintre cele mai competitive piețe din lume.</p>
+                </div>
+                <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl mb-2">🚗</p>
+                        <p class="font-semibold text-slate-800">Hyundai & Kia Motors</p>
+                        <p class="text-sm text-slate-500">Furnizor oficial</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl mb-2">🛒</p>
+                        <p class="font-semibold text-slate-800">E-mart & Lotte Mart</p>
+                        <p class="text-sm text-slate-500">Parteneri cheie de retail</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl mb-2">🛍️</p>
+                        <p class="font-semibold text-slate-800">Duty-Free & Department Stores</p>
+                        <p class="text-sm text-slate-500">Vânzări în segmentul premium</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl mb-2">🌟</p>
+                        <p class="font-semibold text-slate-800">Universal, Minions, Line Friends</p>
+                        <p class="text-sm text-slate-500">Parteneriate cu branduri globale</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="sales-channels" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Strategia dumneavoastră pentru Europa de Est: Cifre și Potențial</h2>
+                    <p class="text-lg text-slate-600 mb-12">Vă propunem să începeți cu România, iar apoi să extindeți succesul în țările vecine. Priviți potențialul acestor piețe.</p>
+                </div>
+                <div class="space-y-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md feature-card">
+                        <h3 class="font-bold text-lg mb-2">🇷🇴 Pasul 1: Dominarea în România (eMAG)</h3>
+                        <p class="text-slate-600">eMAG este liderul pieței cu **1.8 milioane de utilizatori activi**. Chiar dacă acoperim doar 0.5% din această audiență, înseamnă **9,000+ clienți potențiali** în primul an.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md feature-card">
+                            <h3 class="font-bold text-lg mb-2">🇵🇱 Polonia (Allegro)</h3>
+                            <p class="text-slate-600">Cea mai mare piață din regiune cu **15.1 milioane de cumpărători activi**. Atingerea a doar 0.1% înseamnă peste **15,000 de clienți**.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md feature-card">
+                            <h3 class="font-bold text-lg mb-2">🇨🇿 Cehia (Alza)</h3>
+                            <p class="text-slate-600">Lider de piață cu o audiență de peste **9.7 milioane de cumpărători online**. Potențial — **9,700+ clienți** la o acoperire de 0.1%.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md feature-card">
+                            <h3 class="font-bold text-lg mb-2">🇭🇺 Ungaria (eMAG.hu)</h3>
+                            <p class="text-slate-600">O piață în creștere rapidă cu **9 milioane de utilizatori de internet**. Scopul nostru — **9,000+ clienți** în primul an.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="income-potential" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Economie transparentă și vânzări repetate</h2>
+                    <p class="text-lg text-slate-600 mb-12">Dr.Clo nu este o achiziție unică. Este un produs consumabil, iar clienții revin pentru el. Acest lucru creează un flux de numerar stabil și previzibil.</p>
+                </div>
+                <div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div class="bg-slate-50 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-center font-bold text-xl mb-6">Calculul profitului pentru 1 unitate</h3>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-slate-600">Preț de vânzare pe eMAG</span>
+                                <span class="font-bold text-lg text-slate-800">$14.00</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-slate-600">Cost de producție</span>
+                                <span class="font-bold text-lg text-red-500">-$3.50</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-slate-600">Logistica</span>
+                                <span class="font-bold text-lg text-red-500">-$1.50</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-slate-600">Comision (15%)</span>
+                                <span class="font-bold text-lg text-red-500">-$2.10</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-slate-600">Marketing (10%)</span>
+                                <span class="font-bold text-lg text-red-500">-$1.40</span>
+                            </div>
+                            <div class="flex justify-between items-center pt-4">
+                                <span class="font-bold text-xl text-slate-800">Profitul dvs. net</span>
+                                <span class="font-extrabold text-2xl text-green-600">$5.50 (39.3%)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-center font-bold text-xl mb-6">Dovada cererii: Test în Rusia</h3>
+                        <p class="text-slate-600 mb-4">Un test pe marketplace-ul Wildberries (Rusia) a arătat o cerere explozivă chiar și cu investiții minime în marketing.</p>
+                        <div class="text-center bg-white p-4 rounded-lg">
+                            <p class="text-sm font-semibold text-slate-500">Vânzări stabile atinse</p>
+                            <p class="text-4xl font-bold text-blue-600 my-2">2100+ unități/lună</p>
+                            <p class="text-slate-600 font-semibold">Acest lucru demonstrează amploarea afacerii.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                 <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Nu oferim doar un produs - asigurăm succesul</h2>
+                    <p class="text-lg text-slate-600 mb-12">Succesul dumneavoastră este prioritatea noastră principală. Oferim suport complet pentru a vă putea concentra pe creșterea afacerii.</p>
+                </div>
+                <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="font-bold text-xl mb-2">🤖 Automatizare AI pentru parteneri</h4>
+                        <p class="text-slate-600">Implementăm AI pentru analiza pieței, crearea de conținut unic și optimizarea proceselor de afaceri. Aveți acces la tehnologii de vârf pentru eficiență maximă.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="font-bold text-xl mb-2">🤝 Prietenie pe termen lung</h4>
+                        <p class="text-slate-600">Ne dorim relații de lungă durată și de încredere. Căutăm nu doar un distribuitor, ci un partener cu care să creștem împreună ani de zile, construind o afacere de succes și stabilă.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="font-bold text-xl mb-2">🌐 Localizare și Adaptare</h4>
+                        <p class="text-slate-600">Vă ajutăm să adaptați ambalajul și materialele pentru piața dumneavoastră, astfel încât produsul să rezoneze cu publicul local.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="font-bold text-xl mb-2">📞 Suport 24/7</h4>
+                        <p class="text-slate-600">Echipa noastră este mereu disponibilă pentru a răspunde la orice întrebare și a vă ajuta în rezolvarea oricărei probleme.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="py-20 bg-blue-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Andreea, aceasta este calea dumneavoastră către milioane de euro.</h2>
+                <p class="text-xl max-w-3xl mx-auto mb-8">Ați găsit afacerea ideală: un produs de care toată lumea are nevoie, cu profitabilitate ridicată și suportul nostru complet. Haideți să cucerim împreună piața din Europa de Est. Faceți primul pas — plasați o comandă mare.</p>
+                <a href="mailto:your-email@example.com" class="bg-white text-blue-600 font-bold rounded-full px-8 py-4 text-lg hover:bg-slate-100 transition-colors">Discutați detaliile comenzii</a>
+                <div class="mt-8 text-blue-200">
+                    <p class="font-semibold">Victoria</p>
+                    <p>Director de distribuție internațională, Dr.Clo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 text-slate-400 py-6">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2025 Dr.Clo. Toate drepturile rezervate.</p>
+            <p class="mt-2">Informațiile de pe această pagină reprezintă o ofertă comercială.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
